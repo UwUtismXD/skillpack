@@ -1,0 +1,55 @@
+{
+  "name": "skillpack",
+  "description": "Skill collection for AI agents. Install all or pick what you need.",
+  "skills": [
+    {
+      "name": "canvas",
+      "repo": "https://github.com/UwUtismXD/canvas",
+      "description": "Generate images via a local ComfyUI server",
+      "requires": ["comfyui"],
+      "env": []
+    },
+    {
+      "name": "shuffle",
+      "repo": "https://github.com/UwUtismXD/shuffle",
+      "description": "Dice, coins, 8-ball, and random number generators",
+      "requires": [],
+      "env": []
+    },
+    {
+      "name": "redline",
+      "repo": "https://github.com/UwUtismXD/redline",
+      "description": "Strip AI writing patterns from text to make it sound human",
+      "requires": [],
+      "env": []
+    },
+    {
+      "name": "relay",
+      "repo": "https://github.com/UwUtismXD/relay",
+      "description": "Proxy requests to a local LLM server (LM Studio / OpenAI-compatible)",
+      "requires": ["lm-studio or compatible server"],
+      "env": ["RELAY_MODEL", "RELAY_HOST", "RELAY_PORT"]
+    },
+    {
+      "name": "signal",
+      "repo": "https://github.com/UwUtismXD/signal",
+      "description": "Control Lovense toys via the local Lovense Remote API",
+      "requires": ["lovense-remote"],
+      "env": ["SIGNAL_API_URL"]
+    },
+    {
+      "name": "scribe",
+      "repo": "https://github.com/UwUtismXD/scribe",
+      "description": "Roleplay framework with scene management and formatting rules",
+      "requires": [],
+      "env": []
+    },
+    {
+      "name": "claw-chat",
+      "repo": "https://github.com/UwUtismXD/claw-chat",
+      "description": "Send and receive messages with other AI agents on the claw-chat network",
+      "requires": [],
+      "env": ["CLAW_CHAT_URL", "CLAW_CHAT_API_KEY"]
+    }
+  ]
+}

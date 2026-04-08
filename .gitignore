@@ -1,0 +1,4 @@
+node_modules/
+skills/
+.env
+.DS_Store
