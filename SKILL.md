@@ -1,6 +1,6 @@
 ---
 name: skillpack
-description: Skill collection and installer for AI agents. Read skills.json for the full registry, or run the install script to download skills.
+description: Skill collection and installer for AI agents. Use to discover, install, or update available skills. Read skills.json for the full registry, or run the install script to download skills.
 ---
 
 # Skillpack
